@@ -2,4 +2,8 @@
 
 import edn_format
 
-edn_format.dumps({1, 2, 3})
+ednFile = open("input/arraymap.c.edn", "r")
+
+print(edn_format.loads(ednFile.read()))
+
+ednFile.close()
