@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "atoms-visualization"
+version = "0.1.0"
+description = "A project for visualizing ast nodes and atoms."
+authors = [{ name = "Your Name", email = "youremail@example.com" }]
+requires-python = ">=3.8"
+
+dependencies = [
+    "edn-format >= 0.7, < 0.8",
+    "networkx >= 3, < 4",
+    "matplotlib >= 3, < 4"
+]
